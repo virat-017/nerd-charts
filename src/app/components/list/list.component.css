@@ -1,0 +1,23 @@
+.icon{
+    margin-top:2% ;
+    display: inline-block;
+    width: 10%;
+    
+}
+
+.close-icon{
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.article-div{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 8px 10px 13px;
+gap: 20px;
+font-size: 12px;
+background: #E1E1F1;
+margin:1%;
+}

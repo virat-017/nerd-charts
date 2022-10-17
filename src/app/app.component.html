@@ -1,0 +1,19 @@
+
+<!-- <app-toolbar></app-toolbar> -->
+<mat-sidenav-container class="mx-auto min-vh-100" *ngIf="isLoggedIn; else elseBlock">
+
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened" class="sidenav-css">
+    <app-sidenav></app-sidenav>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="reorder" (click)="sidenav.toggle()" class="navicon"></mat-icon>
+    <router-outlet>
+      
+    </router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<ng-template #elseBlock>
+  <div><p>Not Logged In</p></div>
+</ng-template>
+

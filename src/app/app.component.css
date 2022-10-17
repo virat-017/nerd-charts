@@ -1,0 +1,30 @@
+.vl {
+    border-left: 2px solid gray;
+    height: 88%;
+    position: absolute;
+    right: 18%;
+    margin-top: 6%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  *{
+    font-size: 14px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .navicon{
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  body{
+    overflow: hidden;
+  }
+
+.sidenav-css{
+  background: #29279A; 
+  width: 200px; 
+  margin: auto;
+}

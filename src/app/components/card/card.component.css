@@ -1,0 +1,13 @@
+.card{
+    background-color: #8584BF;
+font-style: normal;
+}
+
+.card-heading{
+    width: 100%;
+    margin-left: 0%;
+    color: blue;
+}
+.cardText{
+    font-weight: 500;
+}

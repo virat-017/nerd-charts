@@ -1,0 +1,51 @@
+.icon{
+    margin-top:2% ;
+    display: inline-block;
+    width: 10%;
+    
+}
+
+.close-icon{
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.article-div{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 8px 10px 13px;
+gap: 20px;
+font-size: 12px;
+background: #E1E1F1;
+}
+
+.filterOptions{
+box-sizing: border-box;
+width: 20%;
+height: 30px;
+top: 10px;
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+border-radius: 10px;
+margin-left: 1%;
+}
+
+.filterButton{
+    width: 20%;
+    height: 20%;
+    top: 10px;
+    background: #a4a3e3;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-left: 1%;   
+}
+
+.verticalLine{
+width: 712px;
+height: 0px;
+border: 1px solid #C4C4C4;
+transform: rotate(-90deg);
+margin-right: 100%;
+}
